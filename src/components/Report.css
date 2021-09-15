@@ -1,0 +1,26 @@
+.report-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;  /*ปรับระยะตัวอีกษรกับกรอบ*/
+    margin: 15px 0; /*ระยะห่างบนล่าง*/
+}
+.report-container>div{ /*เข้าไปที่ div ภายใน 2 ก้อน*/
+    flex: 1;
+    text-align: center;
+}
+.report-container>div:first-of-type{ /*เข้าไปที่ div ก้อนแรก*/
+    border-right: 1px solid #dedede ; /*สร้างเฉพาะกรอบขวา*/
+}
+.report{
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin: 5px 0;
+}
+.report-plus{
+    color: #2ecc71;
+   
+}
+.report-minus{
+    color: red;
+}

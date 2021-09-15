@@ -1,0 +1,26 @@
+/*ปรับระยะ*/
+label{  
+   display: inline-block;
+   margin: 10px 0;   
+}
+input{
+    border: 1px solid #dedede; /*ขนาด สีกรอบ*/ 
+    border-radius: 2px; /*ความมน*/
+    display:block ; /*แยก label กับ ช่องกรอกคนละบรรทัด*/
+    font-size: 16px ;
+    padding: 10px; /*ขนาดกรอบ*/
+    width: 100%;
+}
+input:focus{
+    outline: none; /*ปิดกรอบดำๆ ตอนกรอก*/
+}
+.btn{
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}

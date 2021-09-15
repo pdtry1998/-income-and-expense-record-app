@@ -1,0 +1,15 @@
+.item-list{
+    list-style-type: none; /*เป็นการเอา จุดli ออก*/
+    padding: 0;
+    margin-bottom: 40px; /*แบ่งระยะ*/
+}
+.item-list li{ /*class name item-list ซึ่งมี li อยู่*/
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); /*เงาจาก li แต่ละตัว*/
+    padding: 15px; /*ขนาดแต่ละ li*/
+    color: #333;
+    display: flex;                     /*แบ่งระยะระหว่างชื่อ กับราคา*/
+    justify-content: space-between;   /*แบ่งระยะระหว่างชื่อ กับราคา*/
+    margin: 10px 0; /*แบ่ง li ให้กรอบไม่ชิดกัน*/
+    position: relative;
+}

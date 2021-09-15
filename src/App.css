@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+
+*{
+  box-sizing: border-box; /*ปรับทุก element ให้เป็นขนาดจริง*/
+  font-family: 'Prompt', sans-serif;
+}
+
+body{
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column; /*จัดเรียง element เป็นแนวตั้ง*/
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /*จัดตัวเนื้อหาใน body ให้อยู่กึ่งกลางหน้า*/
+  margin: 0;
+}
+.container{
+  margin: 30px auto;
+  width: 350px;
+}
+.horizontal-menu{
+  list-style-type: none; /*เอาจุด li ออก*/
+  margin: 0;
+  padding: 0; 
+  background: #333; ;
+  overflow: hidden; /*ปิดการสกอหน้าจอ*/
+  text-align: center;
+}
+.horizontal-menu li{
+  display: inline-block; /*เรียงเมนูแนวนอน*/
+}
+.horizontal-menu a{
+  color: white;
+  text-decoration: none; /*เอาเส้นใต้ออก*/
+  padding: 16px; /*เว้นระยะห่าง*/
+  display: block; /*ดูใหญ่ขึ้นมานิดนึง*/
+}
+

@@ -1,0 +1,6 @@
+.expense{
+    border-right: 5px solid red; /*กรอบขวา กับ สี*/
+}
+.income{
+    border-right: 5px solid #2ccc71;
+}
